@@ -42,7 +42,7 @@ namespace Cliente
             }
 
             stream.Close();
-            Console.WriteLine("Desconectado!");
+            Console.WriteLine("Desconectado do servidor!");
             cliente.Close();
         }
     }
